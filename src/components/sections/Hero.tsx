@@ -47,7 +47,7 @@ const Hero = () => {
               <div className="relative bg-white dark:bg-gray-800 rounded-2xl shadow-xl overflow-hidden border border-gray-100 dark:border-gray-700 w-full max-w-sm aspect-square filter grayscale hover:grayscale-0 transition duration-300 " >
                 {/* Profile image placeholder - Replace URL with your actual image */}
                 <img 
-                  src="/src/utilities/images/robo.jpg" 
+                  src="/src/images/robo.jpg" 
                   alt="Professional headshot" 
                   className="w-full h-full object-cover "
                 />

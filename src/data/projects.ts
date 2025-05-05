@@ -1,3 +1,4 @@
+
 export type Project = {
   id: string;
   title: string;
@@ -16,7 +17,7 @@ export const projectsData: Project[] = [
     id: 'project-1',
     title: 'Zuno - video conferncing app',
     description: 'A video conferencing application with real-time chat, screen sharing,schedule meetings and user authentication.',
-    image: '/src/utilities/images/zuno-bg.png',
+    image: '/src/images/zuno-bg.png',
     technologies: ['React', 'Node.js', 'Express', 'MongoDB'],
     category:[ 'fullstack','frontend', 'backend'],
     year: '2023',
@@ -28,7 +29,7 @@ export const projectsData: Project[] = [
     id: 'project-2',
     title: 'E-Commerce Platform',
     description: 'A full-featured e-commerce platform with product management, cart functionality, user authentication, and payment processing.',
-    image: '/src/utilities/images/e-commerce-bg.png',
+    image: '/src/images/e-commerce-bg.png',
     technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'Next.js', 'Stripe API'],
     category:[ 'fullstack','frontend', 'backend'],
     year: '2024',
@@ -40,7 +41,7 @@ export const projectsData: Project[] = [
     id: 'project-3',
     title: 'Project-Management tool',
     description: 'A full-stack Project Management Tool designed to Add Task , tracking your routine . This tool helps users manage projects, assign tasks, track progress, and improve productivity.',
-    image: '/src/utilities/images/project-bg.png',
+    image: '/src/images/project-bg.png',
     technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'Next.js'],
     category: [ 'fullstack','frontend', 'backend'],
     year: '2024',
@@ -52,7 +53,7 @@ export const projectsData: Project[] = [
   //   id: 'project-4',
   //   title: 'Anonymous feedback app',
   //   description: 'An anonymous feedback application that allows users to submit and view feedback without revealing their identities.',
-  //   image: '/src/utilities/images/feedback-bg.png',
+  //   image: '/src/images/feedback-bg.png',
   //   technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'Socket.io'],
   //   category: [ 'fullstack','frontend', 'backend'],
   //   year: '2024',
