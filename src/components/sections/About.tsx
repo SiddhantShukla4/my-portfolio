@@ -13,7 +13,7 @@ const About = () => {
               
               <div className="relative z-10 rounded-lg overflow-hidden shadow-xl">
                 <img 
-                  src="/utilities/images/hacked.jpg" 
+                  src="/src/utilities/images/hacked.jpg" 
                   alt="Developer working on code" 
                   className="w-full h-full object-cover"
                 />
